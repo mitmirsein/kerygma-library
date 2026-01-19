@@ -21,7 +21,7 @@ const libraryData = [
     "link": "https://bit.ly/3XNToc8",
     "source": "",
     "id": "3",
-    "category": "Others"
+    "category": "Historical Theology"
   },
   {
     "title": "사랑 (칼 바르트 고별 강연의 마지막 주제)(1962)",
@@ -245,7 +245,7 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=EYeXps0wugs",
     "source": "2022-03-27",
     "id": "31",
-    "category": "Lectures & Talk"
+    "category": "Systematic Theology"
   },
   {
     "title": "성서 신학적 관점에서 본 창조주 하나님",
@@ -293,7 +293,7 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=GdudxPTpFAQ",
     "source": "https://www.youtube.com/watch?v=GdudxPTpFAQ",
     "id": "37",
-    "category": "Others"
+    "category": "Science & Humanities"
   },
   {
     "title": "고대 이미지와 고고학적 맥락에서의 극도의 감정적 상태: 슬픔",
@@ -389,7 +389,7 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=HA8D2aZkNfE",
     "source": "https://www.youtube.com/watch?v=HA8D2aZkNfE",
     "id": "49",
-    "category": "Others"
+    "category": "Science & Humanities"
   },
   {
     "title": "감정의 학교: 중세의 고전 읽기",
@@ -557,7 +557,7 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=0mp3_oBOq0k&t=13s",
     "source": "https://www.youtube.com/watch?v=0mp3_oBOq0k&t=13s",
     "id": "70",
-    "category": "Others"
+    "category": "Biblical Studies"
   },
   {
     "title": "사도 바울의 문화적, 사회적 고향 - 로마 제국",

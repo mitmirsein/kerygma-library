@@ -7,20 +7,20 @@ def assign_category(book):
     author = book.get('author', '').lower()
     source = book.get('source', '').lower()
     
-    # 1. Biblical Studies (Paul, Jesus, OT/NT)
-    if any(x in title or x in author for x in ['paul', '바울', 'jesus', '예수', 'bultmann', '불트만', 'bible', '성서', 'gospel', '복음', 'john', '요한', 'exodus', '출애굽', 'new testament', '신약', 'old testament', '구약', 'scriptura']):
+    # 1. Biblical Studies (Paul, Jesus, OT/NT, Parables, Exegesis)
+    if any(x in title or x in author for x in ['paul', '바울', 'jesus', '예수', 'bultmann', '불트만', 'bible', '성서', 'gospel', '복음', 'john', '요한', 'exodus', '출애굽', 'new testament', '신약', 'old testament', '구약', 'scriptura', 'parable', '비유', 'exegesis', '주석', 'zimmer', '침머']):
         return "Biblical Studies"
         
-    # 2. Historical Theology (Reformation, Ancient, History)
-    if any(x in title or x in source for x in ['reformation', '종교개혁', 'luther', '루터', 'calvin', '칼뱅', 'ancient', '고대', 'history', '역사', 'harnack', '하르낙', 'tertullian', '테르툴리아누스', 'creed', '신조']):
+    # 2. Historical Theology (Reformation, Ancient, History, Semler, Harnack)
+    if any(x in title or x in source or x in author for x in ['reformation', '종교개혁', 'luther', '루터', 'calvin', '칼뱅', 'ancient', '고대', 'history', '역사', 'harnack', '하르낙', 'tertullian', '테르툴리아누스', 'creed', '신조', 'semler', '젬러', 'patristic', '교부']):
         return "Historical Theology"
 
-    # 3. Systematic Theology (Dogmatics, God, Karl Barth, Welker)
-    if any(x in title or x in author for x in ['barth', '바르트', 'welker', '벨커', 'pannenberg', '판넨베르크', 'moltmann', '몰트만', 'dogmatics', '교리', 'systematic', '조직신학', 'trinity', '삼위일체', 'christology', '기독론', 'justification', '칭의', 'reconciliation', '화목']):
+    # 3. Systematic Theology (Dogmatics, God, Karl Barth, Welker, Pannenberg)
+    if any(x in title or x in author for x in ['barth', '바르트', 'welker', '벨커', 'pannenberg', '판넨베르크', 'moltmann', '몰트만', 'dogmatics', '교리', 'systematic', '조직신학', 'trinity', '삼위일체', 'christology', '기독론', 'justification', '칭의', 'reconciliation', '화목', 'salvation', '구원']):
         return "Systematic Theology"
 
-    # 4. Science & Humanities (Emotion, Brain, Climate, Philosophy)
-    if any(x in title for x in ['emotion', '감정', 'brain', '뇌', 'climate', '기후', 'science', '과학', 'philosophy', '철학', 'kant', '칸트', 'humanities', '인문', 'capitalism', '자본주의']):
+    # 4. Science & Humanities (Emotion, Brain, Climate, Philosophy, Roth)
+    if any(x in title or x in author for x in ['emotion', '감정', 'brain', '뇌', 'climate', '기후', 'science', '과학', 'philosophy', '철학', 'kant', '칸트', 'humanities', '인문', 'capitalism', '자본주의', 'roth', 'sternstunde', 'zurich', '취리히']):
         return "Science & Humanities"
 
     # 5. Practical & Spirituality (Sermon, Life, Meaning, Anselm Grün)
