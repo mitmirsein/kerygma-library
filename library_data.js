@@ -654,6 +654,7 @@ const libraryData = [
     "link": "https://share.note.sx/fa1r60kd",
     "source": "https://www.youtube.com/watch?v=cZIiukWxjJE",
     "id": "999",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_999.md"
   }
 ];
