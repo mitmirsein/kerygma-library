@@ -162,7 +162,7 @@
     </footer>
 
     <!-- Load Data -->
-    <script src="library_data.js?v=20260119-2"></script>
+    <script src="library_data.js?v=1768798714"></script>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const params = new URLSearchParams(window.location.search);
@@ -195,9 +195,13 @@
 
             // Load Content
             if (book.contentPath) {
-                fetch(book.contentPath)
+                // Ensure relative path
+                const path = book.contentPath.startsWith("/") ? book.contentPath.substring(1) : book.contentPath;
+                console.log("Fetching content from:", path);
+                
+                fetch(path)
                     .then(response => {
-                        if (!response.ok) throw new Error("Content not found");
+                        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
                         return response.text();
                     })
                     .then(markdown => {
@@ -206,7 +210,11 @@
                         document.getElementById("articleDisplay").style.display = "block";
                     })
                     .catch(err => {
-                        document.getElementById("loading").innerText = "Failed to load manuscript content. It may have been lost in time.";
+                        document.getElementById("loading").innerHTML = `
+                            <p style="color:var(--gold-primary)">Failed to load manuscript content.</p>
+                            <p style="font-size:0.8em; color:var(--text-muted)">(${err.message})</p>
+                            <p style="font-size:0.8em; color:var(--text-muted)">Path: ${path}</p>
+                        `;
                         console.error(err);
                     });
             } else {
