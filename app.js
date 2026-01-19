@@ -6,6 +6,15 @@ document.addEventListener('DOMContentLoaded', () => {
     
     let currentFilter = 'all';
     
+    // Sort logic: Higher ID means newer (Assuming sequential IDs)
+    // If IDs are not sequential, we just rely on array order (last added is last in array) then reverse.
+    // However, explicit sort is safer.
+    libraryData.sort((a, b) => {
+        const idA = parseInt(a.id) || 0;
+        const idB = parseInt(b.id) || 0;
+        return idB - idA; // Descending
+    });
+
     // Initial Render
     renderBooks(libraryData);
     
