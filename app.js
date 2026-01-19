@@ -66,20 +66,51 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'book-card';
             
-            // Fallback for link
-            const linkUrl = book.link || book.source || '#';
-            const linkText = (book.link || book.source) ? 'View Resource' : 'No Link Available';
-            const linkClass = (book.link || book.source) ? 'book-link' : 'book-link disabled';
+            // Check content availability
+            const hasContent = !!book.contentPath;
             const category = book.category ? book.category : 'Theology';
             
+            // If content exists, make card clickable
+            if (hasContent) {
+                card.style.cursor = 'pointer';
+                card.onclick = (e) => {
+                    // Don't trigger if user clicked the external link button
+                    if (e.target.closest('a')) return;
+                    window.location.href = `article.html?id=${book.id}`;
+                };
+            }
+            
+            // External Link Logic
+            const linkUrl = book.link || book.source || '#';
+            const linkText = book.link ? 'Yes24/Info' : (book.source ? 'Source Link' : 'No Link');
+            const showLink = (book.link || book.source);
+            
+            // Badge for full text
+            const badgeHtml = hasContent 
+                ? `<span style="background:var(--gold-primary); color:var(--bg-dark); padding:2px 6px; border-radius:4px; font-size:0.7em; font-weight:bold; margin-left:auto;"><i class="ri-article-line"></i> Full Text</span>` 
+                : '';
+
             card.innerHTML = `
-                <div class="book-meta">${category}</div>
+                <div class="book-meta" style="display:flex; align-items:center;">
+                    <span>${category}</span>
+                    ${badgeHtml}
+                </div>
                 <h3 class="book-title">${book.title}</h3>
                 <div class="book-author">${book.author}</div>
-                <a href="${linkUrl}" class="${linkClass}" target="_blank">
-                    <span>${linkText}</span>
-                    <i class="ri-arrow-right-line"></i>
-                </a>
+                
+                <div style="margin-top:auto; display:flex; gap:10px;">
+                    ${hasContent ? `
+                        <button class="book-link" style="background:transparent; border:1px solid var(--text-secondary); flex:1;" onclick="location.href='article.html?id=${book.id}'">
+                            <span>Read Now</span>
+                        </button>
+                    ` : ''}
+                    
+                    ${showLink ? `
+                        <a href="${linkUrl}" class="book-link" target="_blank" style="flex:1; text-align:center;">
+                            <span>Link</span> <i class="ri-external-link-line"></i>
+                        </a>
+                    ` : ''}
+                </div>
             `;
             
             grid.appendChild(card);

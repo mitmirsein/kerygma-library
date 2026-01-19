@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerygma Library</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Noto+Serif+KR:wght@300;400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!-- Markdown Parser -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .article-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: rgba(10, 10, 10, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            min-height: 80vh;
+        }
+
+        .article-header {
+            margin-bottom: 40px;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+            padding-bottom: 20px;
+        }
+
+        .article-title {
+            font-family: 'Noto Serif KR', serif;
+            font-size: 2.5rem;
+            color: var(--text-main);
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+
+        .article-meta {
+            color: var(--text-muted);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            display: flex;
+            gap: 20px;
+        }
+
+        .article-content {
+            font-family: 'Noto Serif KR', serif;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #d1d5db;
+        }
+        
+        .article-content h1, .article-content h2, .article-content h3 {
+            color: var(--gold-primary);
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        
+        .article-content p {
+            margin-bottom: 20px;
+        }
+
+        .article-content a {
+            color: var(--secondary-accent);
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+
+        .back-nav {
+            margin-bottom: 20px;
+        }
+        
+        .back-nav a {
+            color: var(--text-muted);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+        
+        .back-nav a:hover {
+            color: var(--gold-primary);
+        }
+        
+        /* Loading & Error States */
+        #loading {
+            text-align: center;
+            padding: 100px;
+            color: var(--gold-primary);
+            font-family: 'Cinzel', serif;
+        }
+        
+        /* Markdown Specifics */
+        .article-content blockquote {
+            border-left: 4px solid var(--gold-primary);
+            padding-left: 20px;
+            margin: 20px 0;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+        
+        .article-content code {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-glow"></div>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="ri-book-read-fill"></i>
+                <span>KERYGMA LIBRARY</span>
+            </div>
+            <nav>
+                <a href="index.html">Archives</a>
+                <a href="https://mitmirsein.github.io/kerygma_booklist/" target="_blank">Published Books <i class="ri-external-link-line" style="font-size: 0.8em;"></i></a>
+                <a href="https://kerygma.co.kr" target="_blank">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="back-nav">
+            <a href="index.html"><i class="ri-arrow-left-line"></i> Back to Archive</a>
+        </div>
+
+        <div id="loading">Loading ancient texts...</div>
+
+        <article id="articleDisplay" class="article-container" style="display: none;">
+            <div class="article-header">
+                <h1 id="artTitle" class="article-title"></h1>
+                <div class="article-meta">
+                    <span id="artAuthor"><i class="ri-user-line"></i> </span>
+                    <span id="artCategory"><i class="ri-price-tag-3-line"></i> </span>
+                    <span id="artOriginalLink" style="display:none;"><a href="#" target="_blank"><i class="ri-external-link-line"></i> Source</a></span>
+                </div>
+            </div>
+            
+            <div id="artBody" class="article-content">
+                <!-- Markdown content will be injected here -->
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kerygma Library. Curated by Kerygma Press.</p>
+    </footer>
+
+    <!-- Load Data -->
+    <script src="library_data.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const params = new URLSearchParams(window.location.search);
+            const id = params.get("id");
+            
+            if (!id) {
+                window.location.href = "index.html";
+                return;
+            }
+
+            // Find book by ID
+            const book = libraryData.find(b => b.id === id);
+            
+            if (!book) {
+                document.getElementById("loading").innerText = "Book not found in archives.";
+                return;
+            }
+
+            // Render Metadata
+            document.title = `${book.title} | Kerygma Library`;
+            document.getElementById("artTitle").innerText = book.title;
+            document.getElementById("artAuthor").innerHTML = `<i class="ri-user-line"></i> ${book.author}`;
+            document.getElementById("artCategory").innerHTML = `<i class="ri-price-tag-3-line"></i> ${book.category}`;
+            
+            if (book.source && book.source.startsWith("http")) {
+                const linkSpan = document.getElementById("artOriginalLink");
+                linkSpan.style.display = "inline";
+                linkSpan.querySelector("a").href = book.source;
+            }
+
+            // Load Content
+            if (book.contentPath) {
+                fetch(book.contentPath)
+                    .then(response => {
+                        if (!response.ok) throw new Error("Content not found");
+                        return response.text();
+                    })
+                    .then(markdown => {
+                        document.getElementById("artBody").innerHTML = marked.parse(markdown);
+                        document.getElementById("loading").style.display = "none";
+                        document.getElementById("articleDisplay").style.display = "block";
+                    })
+                    .catch(err => {
+                        document.getElementById("loading").innerText = "Failed to load manuscript content. It may have been lost in time.";
+                        console.error(err);
+                    });
+            } else {
+                document.getElementById("loading").innerText = "This entry has no digitized content available.";
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,5 +1,6 @@
 import csv
 import json
+import os
 
 # Define clean category logic
 def assign_category(book):
@@ -36,6 +37,28 @@ def assign_category(book):
 
 csv_path = 'kerygma_books.csv'
 js_output_path = 'library_data.js'
+content_map_path = 'content_map.json'
+
+# Load content map
+content_map = []
+if os.path.exists(content_map_path):
+    with open(content_map_path, 'r', encoding='utf-8') as f:
+        content_map = json.load(f)
+
+def find_content_file(title, content_map):
+    # Normalize title for comparison
+    def normalize(text):
+        return "".join(text.split()).lower().replace(":", "").replace("-", "").replace("(", "").replace(")", "").replace(",", "")
+    
+    norm_title = normalize(title)
+    
+    for item in content_map:
+        if normalize(item['original_title']) == norm_title:
+            return f"contents/{item['file']}"
+        # Fallback: check if one is substring of another
+        if len(norm_title) > 5 and (norm_title in normalize(item['original_title']) or normalize(item['original_title']) in norm_title):
+            return f"contents/{item['file']}"
+    return None
 
 books = []
 
@@ -45,8 +68,9 @@ with open(csv_path, 'r', encoding='utf-8-sig') as f:
         if not row.get('제목'):
             continue
             
+        title = row.get('제목', '').strip()
         book = {
-            "title": row.get('제목', '').strip(),
+            "title": title,
             "author": row.get('저자', '').strip(),
             "link": row.get('링크', '').strip(),
             "source": row.get('source', '').strip(),
@@ -55,6 +79,12 @@ with open(csv_path, 'r', encoding='utf-8-sig') as f:
         
         # Assign single primary category for filtering
         book['category'] = assign_category(book)
+        
+        # Link content file
+        content_file = find_content_file(title, content_map)
+        if content_file:
+            book['contentPath'] = content_file
+            print(f"Linked '{title[:20]}...' -> {content_file}")
         
         books.append(book)
 

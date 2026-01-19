@@ -5,7 +5,8 @@ const libraryData = [
     "link": "https://bit.ly/3XJbvQt",
     "source": "https://www.youtube.com/watch?v=Gw5uMtuW7T8",
     "id": "2",
-    "category": "Systematic Theology"
+    "category": "Systematic Theology",
+    "contentPath": "contents/article_79.md"
   },
   {
     "title": "하나님 형상에 대하여(Zu Gottes Bild) Q&A",
@@ -13,7 +14,8 @@ const libraryData = [
     "link": "https://bit.ly/3XtBMky",
     "source": "https://youtu.be/ErMS33Ful9U?si=fs6QMFoepsamVmTk",
     "id": "1",
-    "category": "Systematic Theology"
+    "category": "Systematic Theology",
+    "contentPath": "contents/article_81.md"
   },
   {
     "title": "정경에 대한 자유로운 연구 1권 서문과 젬러 소개(1771)",
@@ -21,7 +23,8 @@ const libraryData = [
     "link": "https://bit.ly/3XNToc8",
     "source": "",
     "id": "3",
-    "category": "Historical Theology"
+    "category": "Historical Theology",
+    "contentPath": "contents/article_82.md"
   },
   {
     "title": "사랑 (칼 바르트 고별 강연의 마지막 주제)(1962)",
@@ -29,7 +32,8 @@ const libraryData = [
     "link": "https://bit.ly/47y5BEY",
     "source": "https://youtu.be/URBjK6UhyR4?si=vpLMu7w-47LWEUuI",
     "id": "4",
-    "category": "Systematic Theology"
+    "category": "Systematic Theology",
+    "contentPath": "contents/article_80.md"
   },
   {
     "title": "온라인 토론회: 21세기의 칼 바르트 - 오늘날 그의 신학의 의의",
@@ -37,7 +41,8 @@ const libraryData = [
     "link": "https://bit.ly/3XQALEI",
     "source": "https://www.youtube.com/watch?v=V82QwN4f7V0",
     "id": "5",
-    "category": "Systematic Theology"
+    "category": "Systematic Theology",
+    "contentPath": "contents/article_83.md"
   },
   {
     "title": "아돌프 폰 하르낙 전기에 대한 서평(1951)",
@@ -45,7 +50,8 @@ const libraryData = [
     "link": "https://bit.ly/4e6BOpC",
     "source": "",
     "id": "6",
-    "category": "Historical Theology"
+    "category": "Historical Theology",
+    "contentPath": "contents/article_2.md"
   },
   {
     "title": "저항의 삶 - 칼 바르트의 신학과 생애(크리스티아네 티츠)",
@@ -53,7 +59,8 @@ const libraryData = [
     "link": "https://bit.ly/3TyAwLA",
     "source": "https://youtube.com/watch?v=BZ15p_2pkUY&t=105s",
     "id": "7",
-    "category": "Systematic Theology"
+    "category": "Systematic Theology",
+    "contentPath": "contents/article_3.md"
   },
   {
     "title": "기독교의 진리(라인홀트 제베르크)",
@@ -61,7 +68,8 @@ const libraryData = [
     "link": "https://bit.ly/3TuUkzt",
     "source": "",
     "id": "8",
-    "category": "Others"
+    "category": "Others",
+    "contentPath": "contents/article_84.md"
   },
   {
     "title": "베르톨트 클라퍼르트(B. Klappert) 교수의 칼 바르트 메모리",
@@ -77,7 +85,8 @@ const libraryData = [
     "link": "https://bit.ly/4euNeTY",
     "source": "1999 슈투트가르트 교회의 날 발표문",
     "id": "10",
-    "category": "Others"
+    "category": "Others",
+    "contentPath": "contents/article_4.md"
   },
   {
     "title": "감옥에서의 거룩한 봉사 (칼 바르트 설교, 1961)",
@@ -85,7 +94,8 @@ const libraryData = [
     "link": "https://bit.ly/3TGqLuW",
     "source": "1961년 성탄절 이브, 바젤 형무소",
     "id": "11",
-    "category": "Systematic Theology"
+    "category": "Systematic Theology",
+    "contentPath": "contents/article_7.md"
   },
   {
     "title": "출애굽",
@@ -93,7 +103,8 @@ const libraryData = [
     "link": "https://bit.ly/3BdAB1g",
     "source": "2019-02-25 취리히대학 고대학 센터 개원 기념 강연",
     "id": "12",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_6.md"
   },
   {
     "title": "Karl Barth 인터뷰 (1967) - 재구성된 스크립트",
@@ -101,7 +112,8 @@ const libraryData = [
     "link": "https://bit.ly/4er2bXp",
     "source": "",
     "id": "13",
-    "category": "Systematic Theology"
+    "category": "Systematic Theology",
+    "contentPath": "contents/article_9.md"
   },
   {
     "title": "Karl Barth의 왕적이며 예언적 기독론",
@@ -109,7 +121,8 @@ const libraryData = [
     "link": "https://bit.ly/3Y1QYqs",
     "source": "2022-06-19 프린스턴신학대학원 바르트 센터 강연",
     "id": "14",
-    "category": "Systematic Theology"
+    "category": "Systematic Theology",
+    "contentPath": "contents/article_8.md"
   },
   {
     "title": "루돌프 불트만의 신화 제거",
@@ -117,7 +130,8 @@ const libraryData = [
     "link": "https://bit.ly/3Bs7aIK",
     "source": "Worthaus.org의 2021년 여름 캠프 (2021-08-16)",
     "id": "15",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_10.md"
   },
   {
     "title": "고대 이집트의 종교와 삶의 방식",
@@ -125,7 +139,8 @@ const libraryData = [
     "link": "https://bit.ly/4duzKGR",
     "source": "2023-05-19 본 대학 강연",
     "id": "16",
-    "category": "Historical Theology"
+    "category": "Historical Theology",
+    "contentPath": "contents/article_11.md"
   },
   {
     "title": "무엇이 기록되어 있나요? 신약 성경 본문의 기원과 전승",
@@ -141,7 +156,8 @@ const libraryData = [
     "link": "https://bit.ly/47SEfd5",
     "source": "크리스티나 M. 크레이네커(Prof. Dr. Dr. Christina M. Kreinecker) 교수의 2021-07-11 Worthaus 강연",
     "id": "18",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_13.md"
   },
   {
     "title": "칼 바르트의 마지막 인터뷰",
@@ -149,7 +165,8 @@ const libraryData = [
     "link": "https://bit.ly/4eQSjWC",
     "source": "소천 5개월 전 마지막 인터뷰",
     "id": "19",
-    "category": "Systematic Theology"
+    "category": "Systematic Theology",
+    "contentPath": "contents/article_14.md"
   },
   {
     "title": "유럽의 종교개혁 : 48개 종교개혁 도시가 종교개혁의 주안점에 대해 우리에게 전달하는 메시지는 무엇인가?",
@@ -157,7 +174,8 @@ const libraryData = [
     "link": "https://bit.ly/4eQqzlH",
     "source": "http://worthaus.org/, 2016-5-14",
     "id": "20",
-    "category": "Historical Theology"
+    "category": "Historical Theology",
+    "contentPath": "contents/article_15.md"
   },
   {
     "title": "루터의 획기적인 하이델베르크 논쟁과 종교개혁의 시작",
@@ -165,7 +183,8 @@ const libraryData = [
     "link": "https://bit.ly/3Yk7fas",
     "source": "http://worthaus.org/, 2016-5-14",
     "id": "21",
-    "category": "Historical Theology"
+    "category": "Historical Theology",
+    "contentPath": "contents/article_16.md"
   },
   {
     "title": "요한복음 I",
@@ -173,7 +192,8 @@ const libraryData = [
     "link": "https://bit.ly/3NCZsy9",
     "source": "2021-01-23 말씀의 집(Worthaus) 강연",
     "id": "22",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_17.md"
   },
   {
     "title": "요한복음 II",
@@ -181,7 +201,8 @@ const libraryData = [
     "link": "https://bit.ly/4heaKH2",
     "source": "2021-01-23 말씀의 집(Worthaus) 강연",
     "id": "23",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_17.md"
   },
   {
     "title": "칼 바르트와 훌드리히 츠빙글리",
@@ -189,7 +210,8 @@ const libraryData = [
     "link": "https://bit.ly/3Yxz0MF",
     "source": "2022 Barth Conference, Center for Barth Studies, PTS",
     "id": "24",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_19.md"
   },
   {
     "title": "신학 용어 / 개념 리스트 (ft. TRE)",
@@ -205,7 +227,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=pqmloYXN3Ys",
     "source": "Eröffnungspodium der ZAZH-Ringvorlesung \"Mithassen - Mitfühlen. Antike Gefühlswelten aus moderner Perspektive” vom 18.02.2025",
     "id": "26",
-    "category": "Historical Theology"
+    "category": "Historical Theology",
+    "contentPath": "contents/article_21.md"
   },
   {
     "title": "호메로스 서사시와 현대 번역에서의 기쁨, 슬픔, 증오, 사랑: 언어학적 접근",
@@ -213,7 +236,8 @@ const libraryData = [
     "link": "https://youtu.be/5IOD1nrWbNs?si=PXMLZtrF0n_0VUK0",
     "source": "취리히 대학 고대학 연구소의 감정(Emotionen, Gefühle, Affekte)이 고대와 현대의 정치, 사회, 문학에서 어떻게 작용했는지에 대한 학제 간 연구 시리즈 두 번째.",
     "id": "27",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_22.md"
   },
   {
     "title": "최근 역사적 예수 연구",
@@ -221,7 +245,8 @@ const libraryData = [
     "link": "https://youtu.be/VWBRbC_o9Ho?si=AVQu9pBdlPaCQ3Qv",
     "source": "http://Worthaus.org, 2019-06-08",
     "id": "28",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_23.md"
   },
   {
     "title": "역사적 예수: 현재의 쟁점과 전망",
@@ -229,7 +254,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=A5hR7AUsM9s",
     "source": "2023-02-16",
     "id": "29",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_25.md"
   },
   {
     "title": "그리스도 안의 보편 구원: 존 밀뱅크 교수와의 대화",
@@ -237,7 +263,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=C1sqmPr6Gr4",
     "source": "2022-03-30",
     "id": "30",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_24.md"
   },
   {
     "title": "그리스도 안에서 보편 구원: 로빈 패리 신부와 대담",
@@ -245,7 +272,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=EYeXps0wugs",
     "source": "2022-03-27",
     "id": "31",
-    "category": "Systematic Theology"
+    "category": "Systematic Theology",
+    "contentPath": "contents/article_26.md"
   },
   {
     "title": "성서 신학적 관점에서 본 창조주 하나님",
@@ -253,7 +281,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=MBsglTFKrhk",
     "source": "우주론 - 우주 기원론 - 창조 (Kosmologie - Kosmogonie - Schöpfung)\n2009-10-26",
     "id": "32",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_29.md"
   },
   {
     "title": "창조주로서의 하나님? 고통(신정론) 앞에서 하나님의 전능하심",
@@ -285,7 +314,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=MBPcOGcU3_o",
     "source": "취리히 대학 고대학 연구소의 감정(Emotionen, Gefühle, Affekte)이 고대와 현대의 정치, 사회, 문학에서 어떻게 작용했는지에 대한 학제 간 연구 시리즈 다섯 번째.",
     "id": "36",
-    "category": "Historical Theology"
+    "category": "Historical Theology",
+    "contentPath": "contents/article_31.md"
   },
   {
     "title": "무신론자이면서 동시에 신앙인 – 가능한 일인가?",
@@ -293,7 +323,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=GdudxPTpFAQ",
     "source": "https://www.youtube.com/watch?v=GdudxPTpFAQ",
     "id": "37",
-    "category": "Science & Humanities"
+    "category": "Science & Humanities",
+    "contentPath": "contents/article_32.md"
   },
   {
     "title": "고대 이미지와 고고학적 맥락에서의 극도의 감정적 상태: 슬픔",
@@ -301,7 +332,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=cOdxInqVTlc",
     "source": "취리히 대학 고대학 연구소의 감정(Emotionen, Gefühle, Affekte)이 고대와 현대의 정치, 사회, 문학에서 어떻게 작용했는지에 대한 학제 간 연구 시리즈 여섯 번째.",
     "id": "38",
-    "category": "Historical Theology"
+    "category": "Historical Theology",
+    "contentPath": "contents/article_33.md"
   },
   {
     "title": "바울과 스토아 철학 - 1세기 스토아 지식인이 기독교인이 될 수 있었던 이유",
@@ -309,7 +341,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=ayuwPvqo_0I",
     "source": "Worthaus 12 – Tübingen: 18. Mai 2024 von Prof. Dr. Udo Schnelle",
     "id": "39",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_36.md"
   },
   {
     "title": "안셀름 그륀 신부님, 인생에서 무엇이 중요한가요?",
@@ -317,7 +350,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=BiqmGlvRotc",
     "source": "https://www.youtube.com/watch?v=BiqmGlvRotc",
     "id": "40",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_34.md"
   },
   {
     "title": "삶의 의미는 무엇인가?",
@@ -325,7 +359,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=3rLNALMh_yk",
     "source": "https://www.youtube.com/watch?v=3rLNALMh_yk",
     "id": "41",
-    "category": "Practical & Spirituality"
+    "category": "Practical & Spirituality",
+    "contentPath": "contents/article_37.md"
   },
   {
     "title": "후기 고대의 비밀 복음서 - 초기 기독교의 외경 문헌들에 대하여",
@@ -333,7 +368,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=USW9w-fEcXk",
     "source": "",
     "id": "42",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_39.md"
   },
   {
     "title": "예수 소설들 - 예수와 영지주의에 대한 고대의 기록들",
@@ -341,7 +377,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=kv7ofWHw5KE",
     "source": "",
     "id": "43",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_40.md"
   },
   {
     "title": "Sola Scriptura summary",
@@ -349,7 +386,8 @@ const libraryData = [
     "link": "https://brill.com/display/title/34649?rskey=HrEoeh&result=1",
     "source": "https://brill.com/display/title/34649?rskey=HrEoeh&result=1",
     "id": "44",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_42.md"
   },
   {
     "title": "\"원역사(Urgeschichte), 성경이 인류 진화에 대해 밝히는 것”",
@@ -357,7 +395,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=CeE9u1c5m4U",
     "source": "",
     "id": "45",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_41.md"
   },
   {
     "title": "칸트가 자신을 통제하지 못할 때 - 격정  범죄에 대한 형법적 평가",
@@ -365,7 +404,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=oyfK0FuJv8k",
     "source": "https://www.youtube.com/watch?v=oyfK0FuJv8k",
     "id": "46",
-    "category": "Science & Humanities"
+    "category": "Science & Humanities",
+    "contentPath": "contents/article_43.md"
   },
   {
     "title": "기후변화가 우리의 삶의 터전을 파괴할 때: 철학적 성찰",
@@ -373,7 +413,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=7KUJwM2vbns",
     "source": "https://www.youtube.com/watch?v=7KUJwM2vbns",
     "id": "47",
-    "category": "Science & Humanities"
+    "category": "Science & Humanities",
+    "contentPath": "contents/article_44.md"
   },
   {
     "title": "기후를 구하기 위해 자본주의를 포기해야 하는가?",
@@ -381,7 +422,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=g_oL-R_bfnk",
     "source": "https://www.youtube.com/watch?v=g_oL-R_bfnk",
     "id": "48",
-    "category": "Science & Humanities"
+    "category": "Science & Humanities",
+    "contentPath": "contents/article_45.md"
   },
   {
     "title": "누가 우리의 결정을 내리는가?",
@@ -389,7 +431,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=HA8D2aZkNfE",
     "source": "https://www.youtube.com/watch?v=HA8D2aZkNfE",
     "id": "49",
-    "category": "Science & Humanities"
+    "category": "Science & Humanities",
+    "contentPath": "contents/article_46.md"
   },
   {
     "title": "감정의 학교: 중세의 고전 읽기",
@@ -397,7 +440,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=iErXbjpV6Ak&t=1499s",
     "source": "https://www.youtube.com/watch?v=iErXbjpV6Ak&t=1499s",
     "id": "50",
-    "category": "Science & Humanities"
+    "category": "Science & Humanities",
+    "contentPath": "contents/article_47.md"
   },
   {
     "title": "유럽의 종교개혁(Europa Reformata) 용어집",
@@ -405,7 +449,8 @@ const libraryData = [
     "link": "http://kbook.dothome.co.kr/europa_reformata/",
     "source": "",
     "id": "51",
-    "category": "Historical Theology"
+    "category": "Historical Theology",
+    "contentPath": "contents/article_48.md"
   },
   {
     "title": "인간 예수에 대한 질문: 역사적 예수 연구의 단계들",
@@ -413,7 +458,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=B_gX5IOYUf4",
     "source": "",
     "id": "52",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_49.md"
   },
   {
     "title": "예수 그리스도의 십자가와 부활: 역사적 사건과 하나님의 계시",
@@ -421,7 +467,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=UuRk64Hphfg",
     "source": "",
     "id": "53",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_51.md"
   },
   {
     "title": "창조주 하나님? 고난 앞에서의 하나님의 전능 (신정론)",
@@ -437,7 +484,8 @@ const libraryData = [
     "link": "",
     "source": "https://youtube.com/playlist?list=PLSLuaf1QplWOoI-q5r8lEPPewxqEsRVGX&si=lxZHobpR8XI3CKN0",
     "id": "55",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_56.md"
   },
   {
     "title": "신약학 연구사",
@@ -445,7 +493,8 @@ const libraryData = [
     "link": "https://youtube.com/playlist?list=PLSLuaf1QplWOoI-q5r8lEPPewxqEsRVGX&si=lxZHobpR8XI3CKN0",
     "source": "https://youtube.com/playlist?list=PLSLuaf1QplWOoI-q5r8lEPPewxqEsRVGX&si=lxZHobpR8XI3CKN0",
     "id": "56",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_55.md"
   },
   {
     "title": "바울 연구 발전사",
@@ -453,7 +502,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=QDAWPIElvcU",
     "source": "",
     "id": "57",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_58.md"
   },
   {
     "title": "역사적 예수 연구사 리포트",
@@ -461,7 +511,8 @@ const libraryData = [
     "link": "http://kbook.dothome.co.kr/HJ.html",
     "source": "",
     "id": "58",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_59.md"
   },
   {
     "title": "라이마루스의 역사적 예수 연구 용어 해설집",
@@ -469,7 +520,8 @@ const libraryData = [
     "link": "https://kerygma.co.kr/reimarus/",
     "source": "<<라이마루스의 역사적 예수 연구: 볼펜휘텔의 무명씨 단편들>> 고트홀트 에프라임 레싱(편집) 용어 해설집",
     "id": "59",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_60.md"
   },
   {
     "title": "루돌프 불트만의 <예수>(1926) 신학적 분석",
@@ -485,7 +537,8 @@ const libraryData = [
     "link": "http://kbook.dothome.co.kr/rechtfertigung.html",
     "source": "Evangelisches Kirchenlexikon(EKL) 3, 1455-1459.",
     "id": "61",
-    "category": "Systematic Theology"
+    "category": "Systematic Theology",
+    "contentPath": "contents/article_63.md"
   },
   {
     "title": "«저주받을지어다…» – 로마 비문 속의 감정\n돌에 새겨진 희로애락: 로마 비문이 전하는 고대인의 생생한 감정",
@@ -493,7 +546,8 @@ const libraryData = [
     "link": "http://kbook.dothome.co.kr/anne-kolb-roman-inscriptions.html",
     "source": "",
     "id": "62",
-    "category": "Historical Theology"
+    "category": "Historical Theology",
+    "contentPath": "contents/article_64.md"
   },
   {
     "title": "신학적 사유의 주요 주제들(마르코 프렌쉬코프스키 교수 은퇴 강연 시리즈)",
@@ -501,7 +555,8 @@ const libraryData = [
     "link": "",
     "source": "",
     "id": "63",
-    "category": "Lectures & Talk"
+    "category": "Lectures & Talk",
+    "contentPath": "contents/article_66.md"
   },
   {
     "title": "테르툴리아누스의 ≪영혼론: 영혼의 불멸성에 관하여≫ 용어 해설",
@@ -509,7 +564,8 @@ const libraryData = [
     "link": "https://kerygma.co.kr/tertullianus/",
     "source": "https://www.notion.so/1ed82849954d8029bcb6c4693e3c32a3?pvs=21",
     "id": "64",
-    "category": "Historical Theology"
+    "category": "Historical Theology",
+    "contentPath": "contents/article_67.md"
   },
   {
     "title": "루돌프 불트만 ≪예수≫(1926) 용어 해설",
@@ -517,7 +573,8 @@ const libraryData = [
     "link": "https://kerygma.co.kr/bultmann_jesus/",
     "source": "",
     "id": "65",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_68.md"
   },
   {
     "title": "성서 주석 소개",
@@ -525,7 +582,8 @@ const libraryData = [
     "link": "",
     "source": "",
     "id": "66",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_69.md"
   },
   {
     "title": "아돌프 폰 하르낙의 마르키온 연구서 서문, 목차, 그리고 마지막 논문",
@@ -533,7 +591,8 @@ const libraryData = [
     "link": "",
     "source": "",
     "id": "67",
-    "category": "Historical Theology"
+    "category": "Historical Theology",
+    "contentPath": "contents/article_70.md"
   },
   {
     "title": "성령의 사회적 역할",
@@ -541,7 +600,8 @@ const libraryData = [
     "link": "http://kbook.dothome.co.kr/welker_geist.html",
     "source": "",
     "id": "68",
-    "category": "Systematic Theology"
+    "category": "Systematic Theology",
+    "contentPath": "contents/article_72.md"
   },
   {
     "title": "니체와 바울",
@@ -549,7 +609,8 @@ const libraryData = [
     "link": "",
     "source": "",
     "id": "69",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_73.md"
   },
   {
     "title": "돌아온 탕자 비유 해석",
@@ -557,7 +618,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=0mp3_oBOq0k&t=13s",
     "source": "https://www.youtube.com/watch?v=0mp3_oBOq0k&t=13s",
     "id": "70",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_74.md"
   },
   {
     "title": "사도 바울의 문화적, 사회적 고향 - 로마 제국",
@@ -565,7 +627,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=b_8uws7oHnA",
     "source": "https://www.youtube.com/watch?v=b_8uws7oHnA",
     "id": "71",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_75.md"
   },
   {
     "title": "스피노자와 근대 성서 비평",
@@ -573,7 +636,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=ryFahWdGVYw",
     "source": "",
     "id": "72",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_76.md"
   },
   {
     "title": "바울 서신 강의",
@@ -581,7 +645,8 @@ const libraryData = [
     "link": "https://www.youtube.com/watch?v=ZxrxaFuPZhA",
     "source": "https://www.youtube.com/watch?v=ZxrxaFuPZhA",
     "id": "73",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_77.md"
   },
   {
     "title": "칭의와 화목: 바울 신학의 두 가지 핵심 축",
