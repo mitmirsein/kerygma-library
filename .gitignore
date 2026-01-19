@@ -1,0 +1,4 @@
+*.zip
+.DS_Store
+extract_csv.py
+csv_to_json.py
