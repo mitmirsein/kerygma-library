@@ -651,7 +651,7 @@ const libraryData = [
   {
     "title": "칭의와 화목: 바울 신학의 두 가지 핵심 축",
     "author": "Jens Schröter",
-    "link": "https://share.note.sx/fa1r60kd",
+    "link": "https://jsp.ellpeck.de#09f8c38f",
     "source": "https://www.youtube.com/watch?v=cZIiukWxjJE",
     "id": "999",
     "category": "Biblical Studies"

@@ -12,8 +12,8 @@ tags:
   - Reconciliation
   - Worthaus
   - Full_Transcript
-share_link: https://share.note.sx/fa1r60kd
-share_updated: 2026-01-17T12:38:06+09:00
+share_link: https://jsp.ellpeck.de#09f8c38f
+share_updated: 2026-01-26T12:25:16+09:00
 ---
 
 # 바울 신학의 두 가지 핵심 축: 칭의와 화목(화해)
