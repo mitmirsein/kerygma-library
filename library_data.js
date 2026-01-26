@@ -651,10 +651,11 @@ const libraryData = [
   {
     "title": "칭의와 화목: 바울 신학의 두 가지 핵심 축",
     "author": "Jens Schröter",
-    "link": "https://jsp.ellpeck.de#09f8c38f",
+    "link": "",
     "source": "https://www.youtube.com/watch?v=cZIiukWxjJE",
     "id": "999",
-    "category": "Biblical Studies"
+    "category": "Biblical Studies",
+    "contentPath": "contents/article_999.md"
   },
   {
     "title": "[강연] 내 안의 낯선 이, 그것은 바로 나 자신이다: 악에 대하여",
