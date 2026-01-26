@@ -651,10 +651,18 @@ const libraryData = [
   {
     "title": "칭의와 화목: 바울 신학의 두 가지 핵심 축",
     "author": "Jens Schröter",
-    "link": "https://www.youtube.com/watch?v=cZIiukWxjJE",
+    "link": "https://share.note.sx/fa1r60kd",
     "source": "https://www.youtube.com/watch?v=cZIiukWxjJE",
     "id": "999",
-    "category": "Biblical Studies",
-    "contentPath": "contents/article_999.md"
+    "category": "Biblical Studies"
+  },
+  {
+    "title": "[강연] 내 안의 낯선 이, 그것은 바로 나 자신이다: 악에 대하여",
+    "author": "Prof. Marco Frenschkowski",
+    "link": "",
+    "source": "https://www.youtube.com/watch?v=y5h7QT6WcAo",
+    "id": "74",
+    "category": "Lectures & Talk",
+    "contentPath": "contents/article_78.md"
   }
 ];
