@@ -9,7 +9,7 @@ new_entry = {
     'Nr.': '999',
     'source': 'https://www.youtube.com/watch?v=cZIiukWxjJE',
     '기타': 'Theology, Paul, Justification',
-    '링크': 'https://share.note.sx/fa1r60kd',
+    '링크': '',
     '저자': 'Jens Schröter'
 }
 
